@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/view_logo"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="204dp"
+            android:layout_marginRight="204dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo"
+            android:contentDescription="@string/todo"></ImageView>
+        <RelativeLayout
+            android:id="@+id/rellay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view_logo">
+
+            <TextView
+                android:id="@+id/tv_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-light"
+                android:text="From Login"
+                android:textColor="@color/white"
+                android:textSize="35sp"
+                android:textStyle="italic" />
+            <LinearLayout
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_login"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="email"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:fontFamily="sans-serif-light"
+                        android:textStyle="italic"
+                        android:textSize="20sp"/>
+
+                    <EditText
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="@color/white"
+                        android:autofillHints=""
+                        android:background="@drawable/et_bg"
+                        android:ems="10"
+                        android:paddingLeft="8dp"
+                        android:textStyle="italic"
+                        android:textColorHint="@color/white"
+                        android:fontFamily="sans-serif"
+                        android:hint="@string/email"
+                        android:inputType="textEmailAddress"
+                        tools:targetApi="o"
+                        android:paddingStart="8dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/passwordd"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:fontFamily="sans-serif-light"
+                        android:textStyle="italic"
+                        android:textSize="20sp"/>
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:ems="10"
+                        android:paddingStart="8dp"
+                        android:background="@drawable/et_bg"
+                        android:hint="@string/password"
+                        android:textColorHint="@color/white"
+                        android:textStyle="italic"
+                        android:inputType="textPassword"
+                        android:importantForAutofill="no" tools:targetApi="o"
+                        android:paddingLeft="8dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="27dp"
+                android:background="@drawable/et_bg"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="70dp"
+                android:paddingRight="70dp"
+                android:text="@string/login"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+            <ProgressBar
+                android:id="@+id/prog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:visibility="gone"
+                android:layout_above="@id/login"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl">
+
+        <TextView
+            android:id="@+id/daftar_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/daftar"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+</RelativeLayout>

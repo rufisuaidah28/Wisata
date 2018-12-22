@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Wisata</string>
+    <string name="daftar">daftar</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+    <string name="passwordd">passwordd</string>
+    <string name="email">email</string>
+    <string name="tvemail">tvemail</string>
+    <string name="from_login">frmlogin</string>
+    <string name="todo">des</string>
+    <string name="darfar">daftar</string>
+    <string name="pendaftaran">pendaftaran</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

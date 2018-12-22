@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "205455491375",
+    "firebase_url": "https://vacation-d5911.firebaseio.com",
+    "project_id": "vacation-d5911",
+    "storage_bucket": "vacation-d5911.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205455491375:android:31187b4aa83e2138",
+        "android_client_info": {
+          "package_name": "com.example.alhuzwiri.vacation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205455491375-8mjbbq73rpgrqhit0ftk2387tnbb3r1b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alhuzwiri.vacation",
+            "certificate_hash": "d7d47fc7e3b06ea3e89b1e94de97bae877cc337e"
+          }
+        },
+        {
+          "client_id": "205455491375-vhtn4c6f9q992bc7tp485ii0f019fpvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzJWRMojGuY_rHlSuRLxg_cB3QV-zq8iM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205455491375-vhtn4c6f9q992bc7tp485ii0f019fpvf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205455491375:android:91e32e733611f162",
+        "android_client_info": {
+          "package_name": "com.example.alhuzwiri.wisata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205455491375-7tnbie50h0uu146g29qiqb7lrijvn508.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alhuzwiri.wisata",
+            "certificate_hash": "d7d47fc7e3b06ea3e89b1e94de97bae877cc337e"
+          }
+        },
+        {
+          "client_id": "205455491375-pjpjhjal49j0qaapmlofi1873nb4bgmd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alhuzwiri.wisata",
+            "certificate_hash": "f5aac7068e7c5e045ce41538930e821939b6c8ae"
+          }
+        },
+        {
+          "client_id": "205455491375-vhtn4c6f9q992bc7tp485ii0f019fpvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzJWRMojGuY_rHlSuRLxg_cB3QV-zq8iM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205455491375-vhtn4c6f9q992bc7tp485ii0f019fpvf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
